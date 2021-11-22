@@ -20,4 +20,9 @@ int main()
 
     int x1 = 5, y1 = 6, z = 50;
     cout << x1 + y1 + z << endl;
+
+    char a = 65, b = 66, c = 67;
+    cout << a;
+    cout << b;
+    cout << c;
 }
