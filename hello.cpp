@@ -2,6 +2,10 @@
 
 using namespace std;
 
+int myFunction(int x, int y) {
+  return x + y;
+}
+
 int main()
 {
     cout << "Hello World" << endl;
@@ -50,4 +54,8 @@ int main()
 
     // Output the new value of the food variable (Hamburger)
     cout << food << "\n";
+
+    int z2 = myFunction(5, 3);
+    cout << z2;
+    return 0;
 }
